@@ -79,7 +79,7 @@ a {
     width: 500px;
 }
 
-button {
+#header-button {
     border-radius: 8px;
     border: none;
     font-family: Arial;
@@ -88,15 +88,19 @@ button {
     background: #3882F6;
     padding: 10px 30px 10px 30px;
     text-decoration: none;
+    transition: all 300ms ease;
+
 }
 
-button:hover {
+#header-button:hover {
     background: #4073c5;
+    transform: scale(1.05);
 }
 
 /* End-Section-1 Styling */
 
 /* Start-Section-2 Styling */
+
 .section-2 {
     height: 450px;
     padding: 20px;
@@ -129,4 +133,78 @@ button:hover {
     border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
+}
+
+/* End-Section-2 Styling */
+
+/* Start-Section-3 Styling */
+
+.quote-content {
+    height: 400px;
+    /* padding: 0px 60px; */
+    background-color: #E5E7EB;
+    color: #2a3441bb;
+}
+
+.quote-main {
+    padding-top: 110px;
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.quote-sub {
+    font-weight: bold;
+    float: right;
+    margin-right: 115px;
+}
+
+/* End-Section-3 Styling */
+
+/* Start-Section-4 Styling */
+
+.section-4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-infobox {
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    gap: 20vw;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-button {
+    border-radius: 8px;
+    border: solid;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    background: #3882F6;
+    /* padding: 2px 2px 2px 2px; */
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+#info-button:hover {
+    background: #2064d0;
+    transform: scale(1.05);
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    background-color: #1f2937;
 }
