@@ -16,6 +16,8 @@ a {
     text-decoration: none;
 }
 
+/* End-Header Styling */
+
 .header {
     height: 60px;
     color: #F9FAF8;
@@ -26,6 +28,7 @@ a {
 }
 
 .header-left {
+    font-size: 24px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -35,4 +38,42 @@ a {
     display: flex;
     gap: 30px;
     padding-right: 20px;
+}
+
+/* End-Header Styling */
+
+/* Start-Section-1 Styling */
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1f2937;
+    
+}
+
+.section-1 h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.section-1 .support-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 450px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    background: #3882F6;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #4073c5;
 }
