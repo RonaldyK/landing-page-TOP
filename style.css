@@ -37,6 +37,7 @@ a {
     align-items: center;
     width: 500px;
 }
+
 .header-right {
     display: flex;
     justify-content: flex-end;
@@ -77,6 +78,7 @@ a {
 .information {
     width: 500px;
 }
+
 button {
     border-radius: 8px;
     border: none;
@@ -90,4 +92,41 @@ button {
 
 button:hover {
     background: #4073c5;
+}
+
+/* End-Section-1 Styling */
+
+/* Start-Section-2 Styling */
+.section-2 {
+    height: 450px;
+    padding: 20px;
+}
+
+.section-2 h1{
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    margin: 50px;
+}
+
+.section-2 .text {
+    padding: 10px;
+    color:#3e3e3e;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.section-2 img {
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
 }
