@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -31,6 +33,7 @@ a {
 }
 
 .header-left {
+    font-family: 'Anton';
     font-size: 24px;
     display: flex;
     gap: 10px;
