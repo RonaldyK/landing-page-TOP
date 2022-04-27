@@ -22,6 +22,7 @@ a {
 /* End-Header Styling */
 
 .header {
+    width: 100%;
     height: 60px;
     color: #F9FAF8;
     background-color: #1f2937;
